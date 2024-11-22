@@ -1,0 +1,96 @@
+/* Style général pour la carte */
+.post-card {
+
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.5); /* Noir avec 50% de transparence */
+
+}
+/* Style du contenu du post */
+.post-content {
+  font-size: 2rem;
+  color: #000;
+  display: contents;
+}
+#history{
+  gap: 20px;
+}
+.mention {
+  color: #000;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+/* Style de la pièce jointe */
+.attachment {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 5px 10px;
+  gap: 8px;
+}
+
+.file-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.file-name {
+  color: #333;
+  font-size: 0.9rem;
+  flex-grow: 1;
+}
+
+.remove-file {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #d9534f;
+  cursor: pointer;
+}
+
+/* Style des actions (attacher un fichier et publier) */
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .attach-file {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .attach-file img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .publish-button {
+    background-color: #483c2a;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .publish-button:hover {
+    background-color: #483c2a;
+  }
+
+  .slogan-history{
+    color: #000;
+    font-size: 100px;
+    padding-top: 58px;
+  }
